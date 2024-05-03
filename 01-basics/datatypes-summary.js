@@ -32,6 +32,30 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//======================================================
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let bestLaptop = "asusvivobook";
+let anotherBest = bestLaptop;
+ anotherBest = "asuszenbook"
+// console.log(bestLaptop);
+// console.log(anotherBest);
+
+let userOne = {
+    email: "userone@gmail.com",
+    id: 2000
+}
+
+let userTwo = userOne;
+
+userTwo.email = "usertwo@gmail.com"
+
+//console.log(userOne.email); // usertwo@gmail.com
+//console.log(userTwo.email); // usertwo@gmail.com
