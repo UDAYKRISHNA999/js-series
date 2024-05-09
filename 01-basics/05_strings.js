@@ -13,8 +13,8 @@ const gameName = new String('hite,shh,c-com')
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-// console.log(gameName.charAt(2)); // t returns character at that index
-// console.log(gameName.indexOf('t')); // 2 returns index of that character
+// console.log(gameName.charAt(2)); // t (returns character at that index)
+// console.log(gameName.indexOf('t')); // 2 (returns index of that character)
 
 const newString = gameName.substring(0, 4);
 // console.log(newString); //hite (includes the initial position and excludes the range)
