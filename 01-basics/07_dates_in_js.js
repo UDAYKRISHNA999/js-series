@@ -28,14 +28,13 @@ let myTimeStamp = Date.now()
 // console.log(Math.floor(Date.now()/1000)); //1715319899
 
 let newDate = new Date()
-console.log(newDate.getMonth()); // 2024-05-10T05:46:07.864Z
-// console.log(newDate.getMonth() + 1); // 5 (We add 1 because in JS month count starts from 0 (this eefective only when we use .getMonth() method))
+// console.log(newDate.getMonth()); // 4 (May)
+// console.log(newDate.getMonth() + 1); // 5 (We add 1 because in JS month count starts from 0 (this effective only when we use .getMonth() method))
 
 // console.log(newDate.getDay()); //5
 
 // `${newDate.getDay()} and the time `
 
-newDate.toLocaleString('default', {
-    weekday: "long",
-    
-})
+console.log(newDate.toLocaleString('en-IN', {
+    timeZone: "Asia/Kolkata"
+}));
